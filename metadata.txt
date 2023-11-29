@@ -1,0 +1,45 @@
+Provided by Montana Department of Revenue to Eric Dietrich at Montana Free Press, 10/31/2023
+ 
+There are two data sets and two years’ worth of data.
+ 
+The property data contains the following columns:
+    TaxYear-tax year (either 2022 or 2023)
+    Co-County Number, (Silver Bow=1, Cascade=2,…)
+    LevyDistrictCode-Levy district that is used to match the taxing jurisdictions
+    PropertyNumber-Geocode identifying the property
+    TaxClass-tax class, (class 4 has four subgroups to be aware of. 4.1 is residential improvements, 4.2 is residential land, 4.8 is commercial improvements, and 4.9 is commercial land).  
+    ClassCode-Class code or subclass further identifying the type of property
+    ClassCodeDesc-Class code description
+    AbateInd-Abatement Indicator (‘N’ is no abetment, ‘R’ is reduced rate, ‘E’ is exempt property, and ‘L’ is locally abated)
+    SM-Special mobile indicator (Yes/No)
+    PropertyTypeDesc-Property type description
+    TIFName-Name of TIF district (If ‘NULL’ then the property is not in a TIF District)
+    TIFCode- TIF district code (If ‘NULL’ then the property is not in a TIF District)
+    AssessmentCode-assessment code
+    NameLast-name of the Primary Property Owner
+    Address1-Line one of the mailing address
+    Address2- Line two of the mailing address
+    Address3- Line three of the mailing address
+    City- city of the mailing address
+    State- State of the mailing address
+    ZIP-Mailing address Zip code
+    Situs_Address-Situs Street address of the
+    Situs_City-Situs City of the property
+    Situs_State-Situs State of the Property
+    Situs_ZipCode-Situs Zip code of the Property
+    MV-Market Value
+    TV-Taxable Value
+    Mills-Consolidated mills for the current tax year
+ 
+The second set of data is information on the Mills by taxing jurisdiction, and contains the following columns:
+    AdHocTaxYear-tax year (either 2022 or 2023)
+    Co-County Number, (Silver bow=1, Cascade=2,…)
+    LevyDistrictCode-Levy district that is used to match the taxing jurisdictions
+    TaxingUnitDesc-Taxing unit code
+    TaxingJurisdictionDesc-Taxing Unit Description
+    TaxingUnitType-Type of Taxing unit
+    Mills_CY-Mills assessed in the current year
+    Mills_PY Mills assessed in the current year (for strict personal property, mobile home not attached to real, and special mobile property)
+  
+I also included a summary of the certified value data that we have for TY 2023 and TY 2022.
+

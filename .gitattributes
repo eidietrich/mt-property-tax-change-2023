@@ -1,0 +1,9 @@
+# raw/TY2022[[:space:]]COV[[:space:]]Summary.xlsx filter=lfs diff=lfs merge=lfs -text
+# raw/TY2022_Mill_Data.csv filter=lfs diff=lfs merge=lfs -text
+# raw/TY2022_Property_Data.csv filter=lfs diff=lfs merge=lfs -text
+# raw/TY2023[[:space:]]COV[[:space:]]Summary.xlsx filter=lfs diff=lfs merge=lfs -text
+# raw/TY2023_Mill_Data.csv filter=lfs diff=lfs merge=lfs -text
+# raw/TY2023_Property_Data.csv filter=lfs diff=lfs merge=lfs -text
+# processed/joined-on-geocode.csv filter=lfs diff=lfs merge=lfs -text
+# processed/2022-property-components.csv filter=lfs diff=lfs merge=lfs -text
+# processed/2023-property-components.csv filter=lfs diff=lfs merge=lfs -text
